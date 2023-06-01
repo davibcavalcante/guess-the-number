@@ -71,7 +71,7 @@ function gameOn() {
 function recognitionStart() {
     window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition
     const recognition = new SpeechRecognition() 
-    recognition.lang = 'en'
+    recognition.lang = 'pt-BR'
     recognition.start()
 
     return recognition
