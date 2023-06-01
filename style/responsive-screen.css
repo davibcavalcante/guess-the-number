@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ALL SETTINGS */
+
+:root {
+    --dark-blue: #002F58;
+    --blue: #39A8FF;
+    --light-blue: #B1E8FF;
+    --main-font: 'Inter';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.hide {
+    display: none;
+}
+
+div.hide {
+    display: none;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--blue);
+    height: 97vh;
+    position: relative;
+}
+
+/* HOME SETTINGS */
+
+.container-home {
+    width: 700px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.400);
+}
+
+.how-to-play {
+    color: var(--dark-blue);
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.4em;
+
+    width: 700px;
+    height: 200px;
+    margin: auto;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.home-buttons button {
+    font-size: 1.8em;
+    width: 300px;
+}
+
+/* GAME SETTINGS */
+
+.container-game {
+    width: 700px;
+}
+
+.container-game h1 {
+    font-size: 5em;
+}
+
+.container-game h2 {
+    font-size: 2.6em;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-buttons button {
+    width: 250px;
+    height: 50px;
+}
+
+/* WIN SETTINGS */
+
+.container-win-game {
+    width: 700px;
+    padding: 20px 0;
+}
+
+.win-settings {
+    width: 100%;
+}
+
+.container-win-game button {
+    width: 300px;
+}

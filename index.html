@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/mobile-all.css">
+    <link rel="stylesheet" href="./style/responsive-screen.css" media="screen and (min-width: 768px)">
+    <title>Guess The Number Game</title>
+</head>
+<body> 
+    <header class="container-header">
+        <h1>Guess the number game</h1>
+    </header>
+    <section class="container-home">
+        <div class="how-to-play hide" id="how-to-play">
+            <p>To play, you must click start. After that I will think of a number from 1 to 1000, your goal is to guess which number I thought, for that, you just need to say.</p>
+        </div>
+        <div class="home-buttons">
+            <button id="how-to-play-btn">How To Play</button>
+            <button id="start-btn">Start</button>
+        </div>
+    </section>
+
+    <section class="container-game hide">
+        <div class="try" id="try">
+            <h2 id="try-text">Say a number for start</h2>
+            <h1 id="try-number"></h1>
+            <h2 id="try-help"></h2>
+        </div>
+    </section>
+
+    <section class="container-win-game hide">
+        <img src="./imagens/win.jpg" alt="Image of fireworks">
+        <div class="win-settings">
+            <h1>Congratulations!</h1>
+            <p>You got the number right</p>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

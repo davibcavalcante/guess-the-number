@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ALL SETTINGS */
+
+:root {
+    --dark-blue: #002F58;
+    --blue: #39A8FF;
+    --light-blue: #B1E8FF;
+    --main-font: 'Inter';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.hide {
+    display: none;
+}
+
+div.hide {
+    display: none;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--blue);
+    height: 97vh;
+    position: relative;
+}
+
+/* HEADER SETTINGS */
+
+header {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+/* HOME SETTINGS */
+
+.container-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.how-to-play {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.container-home button {
+    color: white;
+    background-color: var(--dark-blue);
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+
+    cursor: pointer;
+}
+
+.container-home button:hover {
+    color: var(--dark-blue);
+    background-color: white;
+    border: 2px solid var(--dark-blue);
+}
+
+/* GAME SETTINGS */
+
+.container-game {
+    color: var(--dark-blue);
+    background-color: white;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.400);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-game h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 30px;
+}
+
+.container-game h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 20px;
+}
+
+/* WIN SETTINGS */
+
+.container-win-game {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.400);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-win-game img {
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+
+.container-win-game h1 {
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.container-win-game p {
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.container-win-game button {
+    color: white;
+    background-color: var(--dark-blue);
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid white;
+
+    cursor: pointer;
+}
+
+.container-win-game button:hover {
+    color: var(--dark-blue);
+    background-color: white;
+    border: 2px solid var(--dark-blue);
+}
